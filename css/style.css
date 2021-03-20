@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../font/gothamhtf-book-webfont.ttf);
+    font-family: gotham;
+}
+
+@font-face {
+    src: url(../font/gothamhtf-bold-webfont.ttf);
+    font-family: gothamBold;
+}
+
+
+/* HEADER */
+
+header nav {
+    height: 780px;
+}
+
+.logo img {
+    width: 100%;
+    height: 780px;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo nav {
+    display: flex;
+    height: 855px;
+}
+
+.logo .rightLogo {
+    width: 70%;
+    margin: 23% 0;
+    font-size: 48.5px;
+    font-family: gothamBold;
+}
+
+.logo .leftLogo {
+    width: 29%;
+    margin: 10% 0;
+    font-size: 14px;
+    font-family: gotham;
+    font-weight: bold;
+}
+
+.logo .leftLogo li {
+    list-style: none;
+    margin-top: 25.5px;
+}
+
+.logo .leftLogo li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    margin-left: 3px;
+}
+
+
+/* MAIN */
+
+
+/* TOP MAIN */
+
+.topMain {
+    display: flex;
+    margin-top: -75px;
+}
+
+.leftMain,
+.rightMain {
+    width: 50%;
+    position: relative;
+}
+
+.topMain img {
+    width: 100%;
+    height: 700px;
+    /* z-index: -1; */
+}
+
+.topMain a h2 {
+    position: absolute;
+    /* margin: 0 40%; */
+    left: 19%;
+    top: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+    font-family: gothamBold;
+    /* z-index: 10; */
+}
+
+.topMain span {
+    font-size: 24px;
+    position: relative;
+    top: -30px;
+}
+
+.topMain .rightMain a h2 {
+    margin-left: 18%;
+    /* word-spacing: 10px; */
+}
+
+
+/* .topMain .rightMain a {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: gothamBold;
+    z-index: 9;
+}*/
+
+
+/* BETWEEN MAIN */
+
+.betweenMain .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: none;
+}
+
+.betweenMain h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: gotham;
+    font-size: 16px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 289px;
+}
+
+
+/* BOTTOM MAIN */
+
+.bottomMain {
+    margin-top: 20px;
+    height: 200px;
+}
+
+.bottomMain li {
+    list-style: none;
+}
+
+.bottomMain li a {
+    font-size: 24px;
+    margin-left: -20px;
+    color: black;
+    padding: 20px;
+}
+
+.bottomMain .leftBottom {
+    float: left;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.leftBottom form label {
+    font-family: gothamBold;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.leftBottom form input {
+    width: 440px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.leftBottom form button {
+    width: 50px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-family: gotham;
+    font-weight: bold;
+    border: none;
+}
+
+.leftBottom .icon ul {
+    display: flex;
+    margin-left: 0;
+    padding: 0;
+}
+
+.bottomMain .rightBottom {
+    float: right;
+    margin-right: 6%;
+}
+
+.rightBottom ul h4 {
+    font-size: 18px;
+    font-family: gothamBold;
+    margin-bottom: 5px;
+}
+
+.rightBottom ul li {
+    margin-top: 5px;
+}
+
+.rightBottom ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: gotham;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 50px;
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: gotham;
+    font-weight: bold;
+    font-size: 13px;
+}
